@@ -1,4 +1,6 @@
-<%= render 'userinfo',user: @user %>
+
+
+<%= render 'layouts/userinfo',user: @user %>
 <%= render 'new', book: @book %>
 <h1></h1>
 <% @books.each do |book| %>
@@ -11,3 +13,4 @@
   <p>画像</p>
   <%= image_tag book.image, size: "200x200" %>
 <% end %>
+
