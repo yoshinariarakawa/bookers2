@@ -1,12 +1,7 @@
-<div class="col-md-3">
-
-
 <p id="notice">Welcome! You have signed up successfully.</p>
             <h2>User info</h2>
              <%= image_tag user.get_profile_image(100,100) %>
             <table class="table">
-
-
               <tbody>
                 <tr></tr>
                 <tr>
@@ -17,13 +12,9 @@
                   <td>introduction</td>
                   <td><%=user.introduction%></td>
                 </tr>
-
-
               </tbody>
             </table>
-
             <%= link_to edit_user_path(user.id) do %>
   　　　　　　　　　<i class="fa-solid fa-user-gear"></i>
 　　　　　　<% end %>
 
-</div>
