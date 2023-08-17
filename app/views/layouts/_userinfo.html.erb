@@ -1,4 +1,4 @@
-
+<p>Welcome! You have sighed up successfully.</p>
             <h2>User info</h2>
              <%= image_tag user.get_profile_image(100,100) %>
             <table class="table">
@@ -15,6 +15,9 @@
               </tbody>
             </table>
             <%= link_to edit_user_path(user.id) do %>
+            <div class="row">
+  　　　　　
   　　　　　　　　　<i class="fa-solid fa-user-gear"></i>
+　　　　　　</div>
 　　　　　　<% end %>
 
