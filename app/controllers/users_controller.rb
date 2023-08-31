@@ -14,6 +14,7 @@ class UsersController < ApplicationController
     @books = Book.all
     @book = Book.new
     @user = current_user
+
   end
 
   private
